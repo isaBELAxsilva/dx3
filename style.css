@@ -1,0 +1,30 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+body{
+    background-color: gray;
+    margin-top: 50px;
+    text-align: center;
+    font-size: x-large;
+}
+input[type=text] {
+    width: 150px;
+    height: 20px;
+    border-radius: 15px;
+    border: 3px solid rgb(170, 151, 151);
+    margin-top: 25px;
+}
+input::placeholder{
+    font-weight: 900;
+    color: black;
+    opacity: 0.5;
+}
+button{
+    font-size:medium;
+    font-weight: bold;
+    height: 25px;
+    border-radius: 20px;
+    border: 2px solid rgb(65, 58, 58);
+}
